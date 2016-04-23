@@ -1,0 +1,230 @@
+/* *****************************************************
+    ** RTL Stylesheet **
+    By Ehsan Chavoshi
+    Source : https://github.com/EhsanCh/whmcs-template-six-rtl
+***************************************************** */
+
+@import url("//fonts.googleapis.com/earlyaccess/droidarabicnaskh.css");
+
+#top-nav {
+    float: left;
+}
+.language-popover .popover-content li {
+    float: right;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .navbar-right {
+        float: left !important;
+        margin-left: -15px;
+    }
+}
+.captchaimage {
+    text-align: left;
+}
+div.announcement-single .label {
+    margin-right: inherit !important;
+    margin-left: 10px;
+}
+input[name="domain"] {
+    direction: ltr;
+    text-align: center;
+}
+#inputBulkDomains{
+    direction: ltr;
+}
+.tile .icon {
+    left: 10px;
+    right: auto;
+}
+.home-kb-search .form-control {
+    padding-right: 50px;
+    padding-left: inherit !important;
+}
+.home-kb-search i {
+    right: 20px;
+    left: inherit !important;
+}
+.pull-right {
+    float: left !important;
+}
+.pull-left {
+    float: right !important;
+}
+table.dataTable thead .sorting::after, table.dataTable thead .sorting_asc::after, table.dataTable thead .sorting_desc::after {
+    left: 8px;
+    right: inherit !important;
+}
+.dataTables_wrapper .dataTables_info {
+    text-align: right !important;
+}
+.dataTables_wrapper .dataTables_filter {
+    float: left;
+}
+div.dataTables_filter {
+    text-align: left;
+    direction: ltr;
+}
+table.dataTable thead > tr > th {
+    padding-left: 25px !important;
+    padding-right: 8px !important;
+}
+.domain-bulk-options-box {
+    left: 134px;
+    right: inherit !important;
+}
+#inputDomain{
+    direction: ltr;
+    text-align: center;
+}
+.popover-user-notifications {
+    font-family: tahoma;
+    font-size: 0.7em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-main,
+textarea,
+.home-shortcuts {
+    font-family: "Raleway", "Droid Arabic Naskh", Tahoma, Arial, sans-serif;
+}
+.navbar-main {
+    font-size: 14px;
+}
+.md-editor > textarea {
+    padding: 8px;
+}
+
+@media (min-width: 992px) {
+    .pull-md-left {
+        float: right;
+    }
+    .pull-md-right {
+        float: left;
+    }
+}
+@media (min-width: 768px) {
+    .pull-sm-left {
+        float: right;
+    }
+    .pull-sm-right {
+        float: left;
+    }
+    .text-right-sm {
+        text-align: right;
+    }
+}
+
+/* 
+    Domain search  :
+*/
+
+.domains-row .col-sm-3,.domains-row .col-sm-9,.domains-row .col-xs-2,.domains-row .col-xs-3,.domains-row .col-xs-5,.domains-row .col-xs-7, .domains-row .col-xs-9 {
+    float: left;
+    direction: ltr;
+}
+
+.domain-input-group .input-group-addon:first-child ,.domains-row .input-group-addon:first-child,.domainoptions .input-group-addon:first-child{
+    border-left: 1px solid #ccc;
+    border-right: 0 none;
+    border-radius: 4px 0 0 4px;
+}
+.domain-selection-options .option .iradio_square-blue {
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+/* 
+    Order Forms :
+*/
+
+#order-standard_cart .products .product div.product-desc {
+    float: right !important;
+}
+
+#order-standard_cart .empty-cart {
+    margin: -20px 0 0 20px !important;
+    text-align: left !important;
+}
+#order-standard_cart .prepend-icon .field {
+    padding-right: 36px !important;
+    padding-left: auto !important;
+}
+#order-standard_cart .view-cart-tabs .nav-tabs {
+    font-size: 0.8em !important;
+    padding-right: 20px !important;
+}
+.fa-arrow-right:before{content:"\f060"}
+.fa-arrow-left:before{content:"\f061"}
+.fa-arrow-circle-right:before{content:"\f0a8"}
+.fa-arrow-circle-left:before{content:"\f0a9"}
+#order-standard_cart .order-summary .loader {
+    padding-left: 10px !important;
+    padding-right: auto !important;
+    text-align: left !important;
+}
+#containerNewUserSignup div[class^="col-"], #containerNewUserSignup div[class*=" col-"],
+#containerExistingUserSignin div[class^="col-"], #containerExistingUserSignin div[class*=" col-"],
+#containerNewUserSecurity div[class^="col-"], #containerNewUserSecurity div[class*=" col-"]
+{
+    float: left !important;
+}
+#containerNewUserSignup input,
+#containerNewUserSignup select,
+#containerNewUserSignup .form-group.prepend-icon,
+#containerExistingUserSignin .form-group.prepend-icon,
+#containerExistingUserSignin input,
+#containerNewUserSecurity .form-group.prepend-icon,
+#containerNewUserSecurity input
+{
+    direction: ltr;
+}
+
+/*
+ Modern order form
+ */
+ #order-modern .product .pricing {
+    float: left !important;
+    text-align: left !important;
+}
+#order-modern .product .description {
+    font-size: 0.9em !important;
+    margin: 15px 20px 10px 30px !important;
+}
+#order-modern .product .text-right{
+    text-align: left !important;
+}
+#order-modern .domainoptions .col-sm-6 ,#order-modern .domainoptions .col-xs-8 ,
+#order-modern .domainoptions .col-sm-2 ,#order-modern .domainoptions .col-xs-4
+,#order-modern .domainoptions .col-xs-2
+,#order-modern .domainoptions .col-xs-7
+,#order-modern .domainoptions .col-xs-3{
+    float: left !important;
+    direction: ltr;
+}
+#order-modern .domainoptions .col-sm-offset-2 {
+    margin-right: 0 !important;
+    margin-left: 16.6667% !important;
+}
+#order-modern .domainoptions .option label {
+    padding: 10px 30px 10px 10px !important;
+}
+#order-modern .configtable td.fieldarea {
+    text-align: right !important;
+}
+#order-modern .cartbuttons{
+    float: left !important;;
+}
+#order-modern .signuptype{
+    float: right !important;
+}
+.signupfields input ,
+.signupfields select
+{
+    direction: ltr;
+}
