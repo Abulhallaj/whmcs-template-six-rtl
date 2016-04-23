@@ -9,6 +9,9 @@
 <!-- jQuery -->
 <script src="{$BASE_PATH_JS}/jquery.min.js"></script>
 
+<!-- Right To Left Styling -->
+<link rel="stylesheet" href="{$WEB_ROOT}/templates/{$template}/css/rtl.css">
+
 <!-- Custom Styling -->
 <link rel="stylesheet" href="{$WEB_ROOT}/templates/{$template}/css/custom.css">
 
