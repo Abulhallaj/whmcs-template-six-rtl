@@ -1,6 +1,8 @@
 <!-- Bootstrap -->
 <link href="{$BASE_PATH_CSS}/bootstrap.min.css" rel="stylesheet">
-<link href="{$BASE_PATH_CSS}/font-awesome.min.css" rel="stylesheet">
+<!-- RTL Bootstrap -->
+ <link rel="stylesheet" href="{$WEB_ROOT}/templates/{$template}/css/bootstrap-rtl.css"> 
+ <link href="{$BASE_PATH_CSS}/font-awesome.min.css" rel="stylesheet">
 
 <!-- Styling -->
 <link href="{$WEB_ROOT}/templates/{$template}/css/overrides.css" rel="stylesheet">
