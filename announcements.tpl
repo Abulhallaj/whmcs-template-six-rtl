@@ -17,7 +17,7 @@
 
         <h2>
             <span class="label label-default">
-                {"M jS"|date:$announcement.timestamp}
+                {if $jdate}{$announcement.date}{else}{"M jS"|date:$announcement.timestamp}{/if}
             </span>
             <a href="{if $seofriendlyurls}{$WEB_ROOT}/announcements/{$announcement.id}/{$announcement.urlfriendlytitle}.html{else}{$smarty.server.PHP_SELF}?id={$announcement.id}{/if}">{$announcement.title}</a>
         </h2>

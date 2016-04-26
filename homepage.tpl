@@ -17,7 +17,7 @@
             <div class="announcement-single">
                 <h3>
                     <span class="label label-default">
-                        {$announcement.rawDate|date_format:"M jS"}
+                        {if $jdate}{$announcement.date}{else}{$announcement.rawDate|date_format:"M jS"}{/if}
                     </span>
                     <a href="{if $seofriendlyurls}{$WEB_ROOT}/announcements/{$announcement.id}/{$announcement.urlfriendlytitle}.html{else}announcements.php?id={$announcement.id}{/if}">{$announcement.title}</a>
                 </h3>
